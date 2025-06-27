@@ -1,0 +1,19 @@
+name: Auto Assign PR Author
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  auto-assign:
+    runs-on: ubuntu-latest
+    # 포크된 저장소에서는 실행하지 않음
+    if: github.event.pull_request.head.repo.full_name == github.repository
+    permissions:
+      pull-requests: write
+
+    steps:
+      - name: Add PR Assignees
+        uses: hkusu/review-assign-action@v1
+        with:
+          assignees: ${{ github.actor }}
