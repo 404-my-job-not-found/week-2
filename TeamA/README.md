@@ -1,4 +1,4 @@
-🚀 [1주차 응원 메시지]
+🚀 [2주차 응원 메시지]
 
 새로운 도전의 첫걸음을 내디딘 여러분을 진심으로 응원합니다!
 익숙하지 않아도 괜찮고, 더뎌도 전혀 문제없어요.
@@ -6,3 +6,8 @@
 
 ✨ 우리 모두가 서로의 성장의 증인이 되어줄 거예요.
 이번 주도 화이팅입니다! 🙌
+
+---
+
+[2주차 미디엄 문제]  
+[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/?envType=problem-list-v2&envId=string)
